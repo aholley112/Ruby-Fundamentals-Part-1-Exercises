@@ -26,6 +26,14 @@ def find_median(numbers)
 
 end
 
-
-
+def find_median(numbers)
+  return nil if numbers.empty?
+  sorted_numbers = numbers.sort
+  mid_index = sorted_numbers.length / 2
+  if sorted_numbers.length.odd?
+    sorted_numbers[mid_index]
+  else
+    (sorted_numbers[mid_index - 1] + sorted_numbers[mid_index]) / 2.0
+  end
+end
 
