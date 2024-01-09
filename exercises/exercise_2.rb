@@ -28,6 +28,5 @@ def filter_long_strings(strings, length)
 # The current implementation, however, has one or more bugs.
 
 def find_max(numbers)
-
+  numbers.max
 end
-  
