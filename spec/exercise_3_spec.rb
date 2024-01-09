@@ -1,3 +1,5 @@
+require_relative '../exercises/exercise_3.rb'
+
 describe '#count_words' do
   it 'accurately counts the occurrences of each word' do
     sentence = "hello world hello"
