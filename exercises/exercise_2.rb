@@ -2,8 +2,14 @@
 # However, the current implementation is faulty and does not produce the correct result.
 
 def calculate_average(numbers)
+  
+    sum = 0
+    numbers.each do |number|
+      sum += number
+    end
+  sum / numbers.length
+  end
 
-end
 
 # 2b. The script is supposed to define a method filter_long_strings that takes an array of strings and an integer (length). 
 # The method should return a new array containing only the strings that are longer than the specified length. However, the current implementation is faulty and does not produce the correct result.

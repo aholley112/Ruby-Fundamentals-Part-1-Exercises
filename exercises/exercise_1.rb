@@ -18,7 +18,7 @@ def perform_operations(integer, float)
   multiplication = integer * float
   division = integer.to_f / float
 
-   [addition, subtraction, multiplication, division]
+ [addition, subtraction, multiplication, division]
 end
 
 
