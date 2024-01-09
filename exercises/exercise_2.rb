@@ -15,7 +15,13 @@ def calculate_average(numbers)
 # The method should return a new array containing only the strings that are longer than the specified length. However, the current implementation is faulty and does not produce the correct result.
 
 def filter_long_strings(strings, length)
- 
+ new_arr = []
+  strings.each do |string|
+  if string.length > length
+  new_arr.push(string)  
+  end
+  end
+  new_arr
   end
 
 # 2c. The script is intended to define a method find_max that takes an array of numbers and returns the largest number in the array. 
